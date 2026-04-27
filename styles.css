@@ -1,4 +1,103 @@
-body{
-    background-color: #71C9CE;
+html,body{
+    background-image:linear-gradient(to bottom,#d6ead6,#bed099,#90db82);
+    background-attachment: fixed; /* Comando para que el degradado reempiece en cada bloque*/
+    background-size: cover; /*Linea para forzar a cubrir toda la pagina*/
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2e7d32;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+
+header p{
+    font-size: 30px;
+    font-style: italic;
+}
+
+header h2{
+    text-align: center;
+}
+
+main p{
+    font-size: 20px;
+    font-display: auto;
+    text-align: left;
+}
+
+nav a{
+    font-size: 15px;
+}
+
+h1{
+    color: #2e7d32;
+    text-transform: uppercase;
+    text-decoration: underline double;
+}
+
+ul{
+    text-align: left;
+}
+
+ol{
+    text-align:left;
+}
+
+h2,h3{
+    color: #2e7d32;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+
+a{
+    color: #0e5730;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+a:hover{
+    color: #64c16a;
+    text-decoration: underline;
+    background-color: #d0dfcb;
+}
+
+nav{
+    text-align: left;
+}
+
+.recetas_nav{
+    text-align: center;
+}
+
+img{
+    width: 1000px;px;
+    height:500px;
+    border-radius: 12px;
+}
+
+footer {
+    max-width: 100%;
+    text-align: left;
+}
+
+footer h4{
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+footer h3{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: large;
+}
+
 
